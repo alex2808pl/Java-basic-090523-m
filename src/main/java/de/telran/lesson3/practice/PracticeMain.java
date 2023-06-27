@@ -11,6 +11,7 @@ public class PracticeMain {
         System.out.println(myValueClass+1);
 
         Test myTest = new Test();
+        Test myTest33 = myTest;
         myTest.run();
         System.out.println(myTest.myIntTest + " - " + Test.myIntStatic);
         Test.myIntStatic = 999;
