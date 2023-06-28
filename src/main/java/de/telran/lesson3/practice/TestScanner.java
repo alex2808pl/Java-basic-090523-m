@@ -40,5 +40,13 @@ public class TestScanner {
         myDouble = myScannerDouble.nextDouble();
         System.out.println("Output double = "+myDouble);
 
+        Scanner myScannerChar = new Scanner(System.in);
+        char ch;
+        System.out.print("Input char = ");
+        myStr = myScannerString.nextLine();
+        ch = myStr.charAt(0);
+        System.out.println("Output s = "+ch);
+
+
     }
 }
