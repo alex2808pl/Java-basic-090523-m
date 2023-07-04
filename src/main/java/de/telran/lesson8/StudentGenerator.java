@@ -12,6 +12,7 @@ public class StudentGenerator {
         //Работаем с методами
         int sumTemp = sumTwoNumbers(numStudent, 5);
         System.out.println("Сумма номера студента = " + sumTemp);
+        System.out.println("Поделим номер студента на целое число= " + divideTwoIntNumbers(numStudent, 0));
         System.out.println("Поделим номера студента = " + divideTwoNumbers(numStudent, 0));
         System.out.println("Поделим номер студента через double = " + divideTwoDoubleInt(numStudent, 2));
         System.out.println("Поделим номер студента на 0 = " + numStudent/1);
@@ -24,6 +25,11 @@ public class StudentGenerator {
     static int sumTwoNumbers(int arg1, int arg2) {
         int sumLocal = arg1 + arg2;
         return sumLocal;
+    }
+
+    static int divideTwoIntNumbers(int arg1, int arg2) {
+        int divLocal = arg1 / arg2;
+        return divLocal;
     }
 
     static double divideTwoNumbers(int arg1, int arg2) {
