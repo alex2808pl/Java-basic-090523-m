@@ -45,6 +45,11 @@ public class TestArray {
         System.out.println("-- arrInt -- оригинал");
         for (int val : arrInt) System.out.println(val); //foreach  val - значение элемента массива
 
+        //Сортировка
+        System.out.println("-- arrInt -- отсортирован");
+        Arrays.sort(arrInt);
+        for (int val : arrInt) System.out.println(val); //foreach  val - значение элемента массива
+
 
 
 
