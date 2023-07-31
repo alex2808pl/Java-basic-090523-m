@@ -28,21 +28,21 @@ public class LinerSearch {
         if(index >= 0) System.out.println("Нашли элемент с Index = "+index);
         else System.out.println("Элемент не найден");
 
-//        //Ищем информацию по search2
-//        System.out.println("Введите значение для поиска search2: ");
-//        key = scanner.nextInt();
-//
-//        index = search2(arr, key);
-//        if(index >= 0) System.out.println("Нашли элемент с Index = "+index);
-//        else System.out.println("Элемент не найден");
-//
-//        //Ищем информацию с помощью Arrays.binarySearch()
-//        System.out.println("Введите значение для поиска Arrays.binarySearch(): ");
-//        key = scanner.nextInt();
-//
-//        index =  Arrays.binarySearch(arr, key);
-//        if(index >= 0) System.out.println("Нашли элемент с Index = "+index);
-//        else System.out.println("Элемент не найден");
+        //Ищем информацию по search2
+        System.out.println("Введите значение для поиска search2: ");
+        key = scanner.nextInt();
+
+        index = search2(arr, key);
+        if(index >= 0) System.out.println("Нашли элемент с Index = "+index);
+        else System.out.println("Элемент не найден");
+
+        //Ищем информацию с помощью Arrays.binarySearch()
+        System.out.println("Введите значение для поиска Arrays.binarySearch(): ");
+        key = scanner.nextInt();
+
+        index =  Arrays.binarySearch(arr, key);
+        if(index >= 0) System.out.println("Нашли элемент с Index = "+index);
+        else System.out.println("Элемент не найден");
 
         //Ищем все вхождения информации
         System.out.println("Введите значение для поиска searchAll: ");
