@@ -10,8 +10,8 @@ public class Calculator {
     public static final char MULTIPLY_SIGN = '*';
     public static final char DIVIDE_SIGN = '/';
     public static final char REST_SIGN = '%';
-    public static final String YES = "y";
-    public static final String NO = "n";
+    public static final String ANSWER_YES = "y";
+    public static final String ANSWER_NO = "n";
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -61,9 +61,9 @@ public class Calculator {
             do {
                 System.out.println("Выполнить еще одно вычисление? (Y/N):");
                 needNextCalculation = scanner.next();
-            } while (!YES.equalsIgnoreCase(needNextCalculation) && !NO.equalsIgnoreCase(needNextCalculation));
+            } while (!ANSWER_YES.equalsIgnoreCase(needNextCalculation) && !ANSWER_NO.equalsIgnoreCase(needNextCalculation));
 
-        } while(YES.equalsIgnoreCase(needNextCalculation));
+        } while(ANSWER_YES.equalsIgnoreCase(needNextCalculation));
 
     }
 
